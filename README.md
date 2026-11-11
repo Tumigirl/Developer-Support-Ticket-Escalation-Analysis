@@ -64,4 +64,5 @@ Free-tier developers escalate more often, possibly because their tickets get pas
 6. Leave channel and region alone
 Neither made a clear difference, so there’s no need to change anything there. Time is better spent on the areas above.
 
-![Dashboard]("C:\Users\HP\Videos\Captures\ticket dashboard.pdf - Personal - Microsoft​ Edge 11_4_2026 4_46_41 PM.png")
+![Dashboard](<img width="1366" height="768" alt="ticket dashboard pdf - Personal - Microsoft​ Edge 11_4_2026 4_46_00 PM" src="https://github.com/user-attachments/assets/0f0e02ae-1952-4ac6-8d7e-807b5c99aea1" />
+)
