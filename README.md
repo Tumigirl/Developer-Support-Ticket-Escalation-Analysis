@@ -24,13 +24,42 @@ Overall, 21.25% of tickets escalated. Escalation is not spread evenly: it concen
 ### Segments with a clear difference
 
 - Reassignments: escalation rises sharply with each handoff: 4.14% with 0 reassignments, 18.85% with 1, 54.81% with 2, and 85.85% with 3. Tickets reassigned more than 3 times are too few to analyse reliably, so they are left out. 
-- Agent experience: agents with under 6 months’ experience escalate 36.61% of their tickets, compared with [X%] for more experienced agents.
+- Agent experience: agents with under 6 months’ experience escalate 36.61% of their tickets
 - Issue category: Account Access (32.86%) and Billing (30.57%) have the highest rates, about 1.5 times the overall rate.
 - Priority: P1 tickets escalate most often at 32.48%, followed by P2 at 25.06%. (P0 is the most urgent level.)
-- Developer tier: Free-tier developers escalate 26.13% of their tickets, against [X%] for Growth and Enterprise.
+- Developer tier: Free-tier developers escalate 26.13% of their tickets
 
 ### Segments with no clear difference
 
-- Channel: Email (23.05%), chat (22.92%) and phone (21.68%) are slightly higher, but all channels fall within [X] percentage points of each other.
-- Region: North America (22.71%) and EMEA (22.18%) are similar, and all regions fall within [X] points of each other, so region does not appear to matter.
+- Channel: Email (23.05%), chat (22.92%) and phone (21.68%) are slightly higher
+- Region: North America (22.71%) and EMEA (22.18%) are similar
 
+
+## Why Does It Happen?
+This are Inferences I have made on my own
+- Reassignment: When tickets are reassigned and passed from agents to agents, information can tend to get lost and will need to be escalated for the senior agents to resolve.
+- Agent with less than 6months of experience are likely to not have the skillset to resolve tickets compared to agents with more experience hence, escalation
+- As for Account access and billing, one possible explanation is that these issues often need permissions or approvals that first-level agents don’t have. This was not tested in the data.
+- Urgent tickets (P0 and P1) escalate more often than low-priority ones, with P1 highest at 32.48%
+- Free-tier developers escalate more often (26.13%), which may reflect more reassignments among these tickets. Channel and region show no clear difference.
+
+## Solution
+These are suggestions based on patterns in the data. They haven’t been tested, and the dataset is synthetic practice data.
+
+1. Make handoffs smoother
+Tickets that get passed from agent to agent are much more likely to escalate. A short handoff note (what the problem is and what has already been tried) would stop the next agent from starting from scratch. If a ticket has already been passed along twice, send it straight to a senior agent or specialist team instead of letting it keep moving.
+
+2. Support newer agents
+Tickets handled by agents who are new to the job escalate far more often. Pair them with a mentor, give them simple guides for common problems, and make it easy to ask a senior colleague for help without handing the whole ticket over.
+
+3. Send Billing and Account Access tickets to the right people
+These two issue types escalate most. They probably need permissions or approvals that first-level agents don’t have. Either route them straight to a specialist team, or give first-level agents clear authority to handle the common cases themselves.
+
+4. Give urgent tickets to experienced agents from the start
+Urgent tickets escalate more often than low-priority ones. Sending them to experienced agents at the beginning avoids a second handoff later.
+
+5. Help Free-tier developers get it right the first time
+Free-tier developers escalate more often, possibly because their tickets get passed around more. Clearer help articles and a ticket form that collects the key details up front could mean fewer handoffs.
+
+6. Leave channel and region alone
+Neither made a clear difference, so there’s no need to change anything there. Time is better spent on the areas above.
