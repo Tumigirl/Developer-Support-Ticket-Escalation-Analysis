@@ -46,16 +46,16 @@ This are Inferences I have made on my own
 ## Solution
 These are suggestions based on patterns in the data. They haven’t been tested, and the dataset is synthetic practice data.
 
-1. Make handoffs smoother
+- Make handoffs smoother
 Tickets that get passed from agent to agent are much more likely to escalate. A short handoff note (what the problem is and what has already been tried) would stop the next agent from starting from scratch. If a ticket has already been passed along twice, send it straight to a senior agent or specialist team instead of letting it keep moving.
 
-2. Support newer agents
+- Support newer agents
 Tickets handled by agents who are new to the job escalate far more often. Pair them with a mentor, give them simple guides for common problems, and make it easy to ask a senior colleague for help without handing the whole ticket over.
 
-3. Send Billing and Account Access tickets to the right people
+- Send Billing and Account Access tickets to the right people
 These two issue types escalate most. They probably need permissions or approvals that first-level agents don’t have. Either route them straight to a specialist team, or give first-level agents clear authority to handle the common cases themselves.
 
-4. Give urgent tickets to experienced agents from the start
+- Give urgent tickets to experienced agents from the start
 Urgent tickets escalate more often than low-priority ones. Sending them to experienced agents at the beginning avoids a second handoff later.
 
 5. Help Free-tier developers get it right the first time
@@ -63,3 +63,5 @@ Free-tier developers escalate more often, possibly because their tickets get pas
 
 6. Leave channel and region alone
 Neither made a clear difference, so there’s no need to change anything there. Time is better spent on the areas above.
+
+![Dashboard]("C:\Users\HP\Videos\Captures\ticket dashboard.pdf - Personal - Microsoft​ Edge 11_4_2026 4_46_41 PM.png")
